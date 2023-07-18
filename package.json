@@ -12,6 +12,7 @@
     "test": "jest --verbose",
     "format": "prettier --write .",
     "storybook": "start-storybook -p 6006",
+    "commit": "git add --all && git commit -m 'update' && git push",
     "build-storybook": "build-storybook",
     "storybook-generate": "sb-rn-get-stories --config-path .ondevice",
     "storybook-watch": "sb-rn-watcher --config-path .ondevice",
