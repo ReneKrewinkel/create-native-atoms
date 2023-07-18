@@ -1,10 +1,13 @@
 import { StyleSheet, Text, View } from "react-native";
 import Constants from "expo-constants";
 
+import { Button } from './components/atoms'
+
 function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text style={{ fontSize: 44 }}>Open up App.tsx to start working on your app!</Text>
+      <Button />
     </View>
   );
 }
