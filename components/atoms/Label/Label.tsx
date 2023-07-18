@@ -4,15 +4,12 @@ import { LabelInterface } from './Label.interface'
 import LabelStyle from './Label.style'
 
 /// TODO: update interface/arguments for Label
-const Label = ({testID, style, type, size, props }:LabelInterface) => {
-
-    return(
-        <View testID={ testID }
-              style={ LabelStyle.View }>
-            <Text>Label</Text>
-        </View>
-    )
-
+const Label = ({ testID, style, type, size, props }: LabelInterface) => {
+  return (
+    <View testID={testID} style={LabelStyle.View}>
+      <Text>Label</Text>
+    </View>
+  )
 }
 
 export default Label
